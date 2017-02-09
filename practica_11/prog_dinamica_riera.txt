@@ -1,0 +1,11 @@
+n sobre k
+
+int C(int n, int k)
+{
+  if(k==0 || k==n) return 1;
+  else
+    return C(n-1,k-1) + C(n-1,k);
+}
+
+programacion dinamica-> almacenar algunos resultados intermedios
+https://www.youtube.com/watch?v=3PrHGgWseZk

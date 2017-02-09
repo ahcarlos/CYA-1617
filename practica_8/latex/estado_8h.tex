@@ -1,0 +1,41 @@
+\hypertarget{estado_8h}{}\section{estado.\+h File Reference}
+\label{estado_8h}\index{estado.\+h@{estado.\+h}}
+
+
+Clase estado de la máquina de Turing (cada estdo es un nodo de lista).  
+
+
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cstdio$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$cstring$>$}\newline
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classestado}{estado}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Clase estado de la máquina de Turing (cada estdo es un nodo de lista). 
+
+Carlos de armas Hernández (\href{mailto:alu0100816167@ull.edu.es}{\tt alu0100816167@ull.\+edu.\+es}) \begin{DoxyDate}{Date}
+November 2016 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em next\+\_\+} & puntero al siguiente elemento \\
+\hline
+{\em prev\+\_\+} & puntero a elemento previo. \\
+\hline
+{\em transiciones\+\_\+} & vector de vectore que almacena las transiciones \\
+\hline
+{\em ticket\+\_\+} & identificador del estado \\
+\hline
+{\em accept\+\_\+} & indica si es de aceptacion o no \\
+\hline
+{\em n\+\_\+tuplas} & es la cantidad de tuplas, es decir, el número total de transiciones \\
+\hline
+\end{DoxyParams}
